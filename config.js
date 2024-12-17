@@ -1,0 +1,28 @@
+let LEVEL_WIDTH = window.innerWidth;
+let LEVEL_HEIGHT = window.innerHeight;
+
+let SHOW_DEBUG = true;
+let SHOW_QUADTREE = false;
+let USE_QUADTREE = true;
+let SHOW_FLOCK_COLORS = false;
+
+let COHESION_MULTIPLIER = 0.0045;
+let SEPARATION_MULTIPLIER = 0.05;
+let ALIGNMENT_MULTIPLIER = 0.05;
+
+let FLOCKS = 5;
+let BOID_AMOUNT = 1500;
+let BOID_MAX_SPEED = 2;
+let BOID_SIZE = 2;
+let BOID_PERSONAL_SPACE = 3;
+let BOID_VISION = 48;
+let BOID_BOUNCE_AT_EDGES = true;
+
+let MAX_ENTITIES_PER_QUADTREE = 32;
+let MIN_QUADTREE_SIZE = 20;
+
+const LEVEL_SPACING_LEFT = 0; // 256
+const TURN_AROUND_AREA = 8;
+
+const SLIDER_WIDTH = 192;
+const UI_SPACING = 48;

@@ -1,0 +1,88 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.page-container {
+	display: flex;
+}
+
+.sidebar {
+	flex: 1;
+	border-right: 4px solid rgb(71, 136, 183);
+}
+
+.level {
+	flex: 9;
+}
+
+.servers {
+	margin: 20px;
+}
+
+.stats {
+	color: lightgray;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 10px;
+	text-align: center;
+}
+
+.server-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.server {
+	border: 2px solid;
+	color: lightgrey;
+	cursor: pointer;
+}
+.server:hover {
+	border: 3px solid;
+	margin: -1px;
+}
+.server.selected {
+	border: 3px solid;
+	margin: -1px;
+}
+.server.selected {
+	border: 3px solid;
+}
+
+.server .name {
+	text-align: center;
+	border-bottom: 2px solid;
+	padding: 4px;
+}
+
+.server-stats-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.shutdown.disabled {
+	display: none;
+}
+
+.add-server {
+	text-align: center;
+	border: 2px solid green;
+	color: green;
+	padding: 8px;
+	margin-top: 20px;
+}
+.add-server:hover {
+	border: 3px solid;
+	margin-top: 19px;
+}
